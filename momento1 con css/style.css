@@ -1,0 +1,206 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+
+
+.gg {
+    width: 250px;
+    height: 100vh;
+    background: #020617;
+    padding: 20px;
+    border-right: 2px solid #38bdf8;
+}
+
+.gg h2 {
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+.gg ul {
+    list-style: none;
+}
+
+.gg ul li {
+    margin: 15px 0;
+}
+
+.gg a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.gg a:hover {
+    color: #38bdf8;
+    text-shadow: 0 0 8px #38bdf8;
+}
+
+
+.info {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+
+header {
+    margin-bottom: 20px;
+}
+
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #38bdf8;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+
+.multimedia {
+    display: flex;
+    gap: 20px;
+}
+
+.izquierda, .derecha {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+video, audio, img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #334155;
+    text-align: center;
+}
+
+tr:hover {
+    background: #334155;
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #020617;
+    margin-top: 20px;
+}
+
+
+.card {
+    animation: fadeIn 0.8s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.gg a:hover {
+    color: #38bdf8;
+}
+
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #38bdf8;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.form {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0 0 10px #38bdf8;
+}
+
+.form2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+input, textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+button {
+    padding: 10px;
+    background: #38bdf8;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0ea5e9;
+}
